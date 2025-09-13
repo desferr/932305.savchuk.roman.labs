@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Task 2.7</title>
+		<style>
+			div {
+				color: white;
+			}
+			#static_div {
+				position: static;
+				background-color: blueviolet;
+				width: 150px;
+				height: 100px;
+			}
+			#first_relative_div {
+				position: relative;
+				background-color: darkred;
+				width: 150px;
+				height: 100px;
+			}
+			#second_relative_div {
+				left: 30px;
+				top: -30px;
+				position: relative;
+				background-color: peru;
+				width: 150px;
+				height: 100px;
+			}
+			#third_relative_div {
+				position: relative;
+				background-color: indianred;
+				width: 600px;
+				height: 400px;
+			}
+			#absolute_div {
+				top: 125;
+				right: 0;
+				position: absolute;
+				background-color: indigo;
+				width: 300px;
+				height: 200px;
+			}
+			#fixed_div {
+				bottom: 0;
+				right: 0;
+				position: fixed;
+				background-color: green;
+				width: 100px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="static_div">
+		It's a static div!
+		</div>
+		<div id="first_relative_div">
+		It's a relative div!
+		</div>
+		<div id="second_relative_div">
+		It's a relative div!
+		</div>
+		<div id="third_relative_div">
+		It's a relative div!
+			<div id="absolute_div">
+			It's an absolute div with relative parent!
+			</div>
+		</div>
+		<div id="fixed_div">
+		It's a fixed div!
+		</div>
+	</body>
+</html>
