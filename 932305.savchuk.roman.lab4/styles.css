@@ -1,0 +1,133 @@
+* {
+	font-family: Arial, sans-serif; 
+}
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background-color: #edeef0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#header {
+	box-sizing: border-box;
+	background-color: #507299;
+	height: 40px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 15vw;
+}
+#main {
+	box-sizing: border-box;
+	margin: auto;
+	padding-top: 10px;
+	max-width: 1000px;
+}
+#menu {
+	box-sizing: border-box;
+	float: left;
+	width: 200px;
+}
+#menu a {
+	text-decoration: none;
+	color: #2e5473;
+}
+#menu #link {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 10px;
+	height: 50px;
+}
+#menu #link:hover {
+	background-color: #e1e5eb;
+}
+#content_column {
+	box-sizing: border-box;
+	padding-left: 200px;
+	width: 650px;
+}
+#right_column {
+	box-sizing: border-box;
+	position: fixed;
+	right: 20vw; 
+	width: 180px;
+}
+#right_column #post {
+	border-radius: 6px;
+	padding: 10px;
+}
+#right_column #post #text {
+	background-color: #edeef0;
+	text-align: left;
+}
+#post {
+	background-color: white;
+	text-align: justify;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+#content_column #post::selection {
+	background-color: #edeef0;
+	color: green;
+}
+#post.with_header {
+	padding: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#post img {
+	max-width: 100%;
+}
+#post p {
+	margin: 0;
+	color: #2e5473;
+}
+#post b {
+	color: black;
+}
+#divider {
+	width: 100%;
+	border-radius: 2px;
+	height: 4px;
+	background-color: #d0d0d0;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+#footer {
+	background-color: white;
+	color: #d0d0d0;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+@media (max-width: 1250px) {
+	#right_column {
+		display: none;
+	}
+}
+@media (max-width: 700px) {
+	#main {
+		width: 100%;
+	}
+	#menu {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row wrap;
+		float: none;
+	}
+	#content_column {
+		width: 100%;
+		padding-left: 0px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+}
