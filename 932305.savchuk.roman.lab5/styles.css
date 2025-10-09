@@ -1,0 +1,81 @@
+* {
+	font-family: Arial, sans-serif; 
+}
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background-color: #edeef0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+}
+#content_box {
+    background-color: rgba(119, 208, 224, 0.822);
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+#content_box p {
+    font-size: 1.4em;
+    margin: 0; 
+    margin-bottom: 5px;
+}
+#content_box:hover {
+    background-color: rgb(235, 106, 106);
+}
+#button {
+    display: flex;
+    align-items: center;
+    border: 0px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(top, rgb(92, 238, 92), rgb(59, 138, 34));
+    background-image: -webkit-linear-gradient(top, rgb(92, 238, 92), rgb(59, 138, 34));
+    background-image: -moz-linear-gradient(top, rgb(92, 238, 92), rgb(59, 138, 34));
+    background-image: -o-linear-gradient(top, rgb(92, 238, 92), rgb(59, 138, 34));
+}
+#button:hover {
+    background-image: linear-gradient(top, rgb(72, 189, 72), rgb(44, 104, 26));
+    background-image: -webkit-linear-gradient(top, rgb(72, 189, 72), rgb(44, 104, 26));
+    background-image: -moz-linear-gradient(top, rgb(72, 189, 72), rgb(44, 104, 26));
+    background-image: -o-linear-gradient(top, rgb(72, 189, 72), rgb(44, 104, 26));
+}
+#button:focus {
+    background-image: linear-gradient(top, rgb(63, 167, 63), rgb(29, 70, 17));
+    background-image: -webkit-linear-gradient(top, rgb(63, 167, 63), rgb(29, 70, 17));
+    background-image: -moz-linear-gradient(top, rgb(63, 167, 63), rgb(29, 70, 17));
+    background-image: -o-linear-gradient(top, rgb(63, 167, 63), rgb(29, 70, 17));
+}
+#news {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#news_content {
+    width: 500px;
+    height: 220px;
+    background-color: rgb(204, 224, 132);
+    padding: 20px;
+}
+#news_content p {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0;
+    margin-bottom: 30px;
+}
