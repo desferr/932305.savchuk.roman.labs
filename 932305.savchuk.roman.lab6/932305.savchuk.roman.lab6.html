@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Frontend Task №7</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="buttons_list">
+                <button id="button" onclick="changePicture('left')">Левая колонка</button>
+                <button id="button" onclick="changePicture()">Обе две</button>
+                <button id="button" onclick="changePicture('right')">Правая колонка</button>
+            </div>
+            <div id="pictures">
+                <div id="cat_picture">
+                    <img class="cat" src="cat.jpg" alt="cat.jpg">
+                </div>
+                <div id="dog_picture">
+                    <img class="dog" src="dog.jpg" alt="dog.jpg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
