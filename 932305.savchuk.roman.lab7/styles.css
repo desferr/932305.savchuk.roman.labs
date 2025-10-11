@@ -1,0 +1,23 @@
+* {
+	font-family: Arial, sans-serif; 
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+#canvas {
+    position: fixed;
+    top: 50px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+}
+.square:hover {
+    background-color: rgba(255, 255, 0, 0.8) !important;
+}
+.triangle:hover {
+    border-bottom-color: rgba(255, 255, 0, 0.8) !important;
+}
+.circle:hover {
+    background-color: rgba(255, 255, 0, 0.8) !important;
+}
