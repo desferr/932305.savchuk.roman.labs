@@ -1,0 +1,23 @@
+* {
+	font-family: Arial, sans-serif; 
+}
+body, html, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#table {
+    display: flex;
+    flex-direction: column;
+}
+.table_entry {
+    display: flex;
+    background-color: lightgray;
+    width: 484px;
+}
+.first_input {
+    width: 200px;
+}
+.second_input {
+    width: 200px;
+}
