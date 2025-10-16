@@ -1,0 +1,55 @@
+* {
+	font-family: Arial, sans-serif; 
+}
+#calc {
+    border: 3px solid rgb(74, 155, 182);
+    width: 274px;
+    padding: 10px;
+}
+#text_container {
+    margin: 3px;
+    width: 98%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    padding: 3px;
+    padding-top: 5px;
+}
+#text_box {
+    text-align: right;
+    font-size: 1.5em;
+    height: 32px;
+    margin-top: 4px;
+    overflow: hidden;
+}
+table {
+    margin-left: 2px;
+    width: 272px;
+    height: 220px;
+    border-collapse: collapse;
+    border-spacing: 4px;
+}
+button {
+    border: 1px solid gray;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(top, rgb(250, 250, 250), rgb(190, 190, 190));
+    background-image: -webkit-linear-gradient(top, rgb(250, 250, 250), rgb(190, 190, 190));
+    background-image: -o-linear-gradient(top, rgb(250, 250, 250), rgb(190, 190, 190));
+    background-image: -moz-linear-gradient(top, rgb(250, 250, 250), rgb(190, 190, 190));
+}
+button:hover {
+    background-image: linear-gradient(top, rgb(199, 199, 199), rgb(190, 190, 190));
+    background-image: -webkit-linear-gradient(top, rgb(199, 199, 199), rgb(190, 190, 190));
+    background-image: -o-linear-gradient(top, rgb(199, 199, 199), rgb(190, 190, 190));
+    background-image: -moz-linear-gradient(top, rgb(199, 199, 199), rgb(190, 190, 190));
+}
+button:focus {
+    border: 1px solid rgb(104, 161, 182);
+}
+#button_calculate {
+    height: 106px;
+}
+#button_0 {
+    width: 106px; 
+}

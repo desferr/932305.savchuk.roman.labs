@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Practice 10</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div id="calc">
+            <div id="text_container">
+                <div id="text_box">0</div>
+            </div>
+            <table id="calc_table">
+                <tbody>
+                    <tr>
+                        <td><button id="button_7" onclick="addNumber('7')">7</button></td> <td><button id="button_7" onclick="addNumber('8')">8</button></td> <td><button id="button_9" onclick="addNumber('9')">9</button></td> <td><button id="button_divide" onclick="useOperation('/')">/</button></td> <td><button id="button_clear" onclick="clearAll()">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="button_4" onclick="addNumber('4')">4</button></td> <td><button id="button_5" onclick="addNumber('5')">5</button></td> <td><button id="button_6" onclick="addNumber('6')">6</button></td> <td><button id="button_nultiplication" onclick="useOperation('*')">*</button></td> <td><button id="button_delete" onclick="deleteChar()">&lt;-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="button_1" onclick="addNumber('1')">1</button></td> <td><button id="button_2" onclick="addNumber('2')">2</button></td> <td><button id="button_3" onclick="addNumber('3')">3</button></td> <td><button id="button_minus" onclick="useOperation('-')">-</button></td> <td rowspan="2"><button id="button_calculate" onclick="calculate()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button id="button_0" onclick="addNumber('0')">0</button></td> <td><button id="button_point" onclick="addNumber('.')">.</button></td> <td><button id="button_plus" onclick="useOperation('+')">+</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
