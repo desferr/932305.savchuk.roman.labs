@@ -38,6 +38,9 @@ function useOperation(operChar) {
     else if (text.at(-1) == ' ' && operChar == '-') {
         text += operChar;
     }
+    else if (text.at(-1) == ' ') {
+        text = text.slice(0, -2) + operChar + ' ';
+    }
     else if (text == '0' || text == '') {
         text = '0';
     }
@@ -71,4 +74,5 @@ function calculate() {
     let text = textBox.textContent;
     text = eval(text);
     textBox.textContent = text;
+
 }
