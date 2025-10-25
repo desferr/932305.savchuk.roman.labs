@@ -1,0 +1,144 @@
+* {
+	font-family: Arial, sans-serif; 
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+body {
+    background-color: black;
+}
+.curtain {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    transition: transform 0.2s ease-in-out;
+    z-index: 10;
+}
+.curtain:hover {
+    transform: translateY(-5%);
+}
+.curtain.go_up {
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out;
+}
+.lamp_box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: calc(50vw - 256px);
+    width: 512px;
+    z-index: 0;
+}
+.lamp_box.on {
+    display: block;
+}
+.lamp_hang_blocker {
+    position: absolute;
+    top: 22.6%;
+    left: 39%;
+    width: 30px;
+    height: 110px;
+    background-color: black;
+    transition: height 0.1s ease-in-out;
+}
+.lamp_hang_blocker.go_down {
+    height: 130px;
+}
+.new_lamp_hang {
+    position: absolute;
+    top: 0;
+    left: 48%;
+    width: 4px;
+    height: 83%;
+    background-image: linear-gradient(to right, rgba(119, 119, 119, 0.96), rgb(153, 154, 154, 0.96));
+}
+.new_lamp_hang_circle {
+    position: absolute;
+    border-radius: 7.5px;
+    top: 82%;
+    left: calc(48% - 5.4px);
+    width: 15px;
+    height: 15px;
+    background-color: rgba(245, 206, 31, 0.96);
+}
+.light_wrapper {
+    position: absolute;
+    top: 0;
+    left: calc(50vw - 750px);
+    width: 1500px;
+    height: 1000px;
+    opacity: 0;
+    visibility: hidden;
+    overflow: visible;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s;
+}
+.light_wrapper.on {
+    opacity: 1;
+    pointer-events: none;
+    visibility: visible;
+}
+.light {
+    position: absolute;
+    top: 11.63%;
+    left: calc(50% - 580px);
+    width: 160px;
+    opacity: 0.5;
+    border-bottom: 1000px solid rgba(242, 255, 60);
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    pointer-events: none;
+    z-index: 5;
+    transition: opacity 0.2s ease-in-out;
+}
+.witch {
+    position: absolute;
+    top: 77%;
+    left: 18%;
+}
+.hat {
+    position: absolute;
+    top: 87%;
+    left: 55%;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+    pointer-events: visible;
+    z-index: 3;
+}
+.hat img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.animal {
+    position: absolute;
+    top: 80%;
+    left: 59%;
+    width: 90px;
+    height: 90px;
+    transition: top 0.5s ease-in-out;
+    z-index: 2;
+}
+.animal img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.rabbit {
+    display: none;
+}
+.rabbit.on {
+    display: block;
+}
+.bird {
+    display: none;
+}
+.bird.on {
+    display: block;
+}
