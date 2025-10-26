@@ -1,0 +1,7 @@
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\932305.savchuk.roman.lab11.exe
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\appsettings.json
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\932305.savchuk.roman.lab11.dll
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\932305.savchuk.roman.lab11.deps.json
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\932305.savchuk.roman.lab11.runtimeconfig.json
+C:\Users\romas\OneDrive\Рабочий стол\WEB-моделирование\932305.savchuk.roman.lab11\bin\Release\net9.0\publish\932305.savchuk.roman.lab11.pdb

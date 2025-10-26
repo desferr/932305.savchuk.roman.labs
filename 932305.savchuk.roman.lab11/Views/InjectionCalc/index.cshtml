@@ -1,0 +1,20 @@
+@inject CalculationModel calcModel
+@{
+    ViewData["Title"] = "Using Direct Injection Calculation Page";
+    int firstValue = calcModel.firstValue;
+    int secondValue = calcModel.secondValue;
+}
+
+<div class="wrapper">
+    <p>AccessServiceDirectly</p>
+    <p class="text">Rand Value First : @firstValue</p>
+    <p class="text">Rand Value Second : @secondValue</p>
+    <p class="text">Add :</p>
+    <p class="evaluation">@firstValue + @secondValue = @(firstValue + secondValue)</p>
+    <p class="text">Sub :</p>
+    <p class="evaluation">@firstValue - @secondValue = @(firstValue - secondValue)</p>
+    <p class="text">Mult :</p>
+    <p class="evaluation">@firstValue * @secondValue = @(firstValue * secondValue)</p>
+    <p class="text">Div :</p>
+    <p class="evaluation">@firstValue / @secondValue = @(secondValue == 0 ? "division by zero" : (float)firstValue / (float)secondValue)</p>
+</div>
