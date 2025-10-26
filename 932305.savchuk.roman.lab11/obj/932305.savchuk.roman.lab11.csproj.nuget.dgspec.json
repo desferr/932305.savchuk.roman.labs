@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romas\\OneDrive\\Рабочий стол\\WEB-моделирование\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj": {}
+    "C:\\Users\\romas\\932305.savchuk.roman.labs\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romas\\OneDrive\\Рабочий стол\\WEB-моделирование\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj": {
+    "C:\\Users\\romas\\932305.savchuk.roman.labs\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romas\\OneDrive\\Рабочий стол\\WEB-моделирование\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj",
+        "projectUniqueName": "C:\\Users\\romas\\932305.savchuk.roman.labs\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj",
         "projectName": "932305.savchuk.roman.lab11",
-        "projectPath": "C:\\Users\\romas\\OneDrive\\Рабочий стол\\WEB-моделирование\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj",
+        "projectPath": "C:\\Users\\romas\\932305.savchuk.roman.labs\\932305.savchuk.roman.lab11\\932305.savchuk.roman.lab11.csproj",
         "packagesPath": "C:\\Users\\romas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romas\\OneDrive\\Рабочий стол\\WEB-моделирование\\932305.savchuk.roman.lab11\\obj\\",
+        "outputPath": "C:\\Users\\romas\\932305.savchuk.roman.labs\\932305.savchuk.roman.lab11\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

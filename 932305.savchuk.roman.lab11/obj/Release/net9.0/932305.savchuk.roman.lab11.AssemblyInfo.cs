@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("932305.savchuk.roman.lab11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4991b23a43cb1bb60356012a9c877d3871abb9d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("932305.savchuk.roman.lab11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("932305.savchuk.roman.lab11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
