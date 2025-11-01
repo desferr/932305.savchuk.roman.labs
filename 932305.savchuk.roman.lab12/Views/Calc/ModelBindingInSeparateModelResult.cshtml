@@ -1,0 +1,11 @@
+@using _932305.savchuk.roman.lab12.Models
+@model CalculationModel
+@{
+    ViewData["Title"] = "Result";
+    string? result = @Model.Result;
+}
+
+<div class="wrapper">
+    <p>Result</p>
+    <p class="result">@result</p>
+</div>

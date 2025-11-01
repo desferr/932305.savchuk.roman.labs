@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Result";
+    int? firstNumber = (int?)ViewData["firstNumber"];
+    int? secondNumber = (int?)ViewData["secondNumber"];
+    string? operation = (string?)ViewData["operation"];
+    string? result = (string?)ViewData["result"];
+}
+
+<div class="wrapper">
+    <p>Result</p>
+    <p class="result">@firstNumber @operation @secondNumber = @result</p>
+</div>

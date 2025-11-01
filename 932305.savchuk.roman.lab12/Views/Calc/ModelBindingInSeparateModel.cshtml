@@ -1,0 +1,22 @@
+@using _932305.savchuk.roman.lab12.Models
+@model CalculationModel
+@{
+    ViewData["Title"] = "ModelBindingInSeparateModel";
+}
+
+<div class="wrapper">
+    <p>ModelBindingInSeparateModel</p>
+    <form asp-action="ModelBindingInSeparateModel" asp-controller="Calc">
+        <p class="form-p"><input type="number" asp-for="FirstNumber"></input></p>
+        <p class="form-p select-p">
+            <select asp-for="Operation">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </p>
+        <p class="form-p"><input type="number" asp-for="SecondNumber"></input></p>
+        <p class="form-p button-p"><button type="submit">Submit</button></p>
+    </form>
+</div>

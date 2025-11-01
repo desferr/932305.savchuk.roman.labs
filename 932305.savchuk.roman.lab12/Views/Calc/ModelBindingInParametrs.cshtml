@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "ModelBindingInParametrs";
+}
+
+<div class="wrapper">
+    <p>ModelBindingInParametrs</p>
+    <form asp-action="ModelBindingInParametrs" asp-controller="Calc">
+        <p class="form-p"><input type="number" name="firstNumber"></input></p>
+        <p class="form-p select-p">
+            <select name="operation">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </p>
+        <p class="form-p"><input type="number" name="secondNumber"></input></p>
+        <p class="form-p button-p"><button type="submit">Submit</button></p>
+    </form>
+</div>
