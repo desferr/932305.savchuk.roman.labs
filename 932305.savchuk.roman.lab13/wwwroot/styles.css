@@ -1,0 +1,103 @@
+* {
+    font-family: sans-serif;
+}
+.navbar {
+    font-weight: bold;
+    padding-left: 92.5px;
+    background-color: rgb(27, 27, 27)
+}
+.navbar a {
+    color: rgb(124, 124, 124);
+    font-size: 22px;
+}
+.nav-item a {
+    font-size: 16px;
+}
+.border-top {
+    margin-left: 92.5px;
+    margin-right: 92.5px;
+}
+.footer {
+    margin-left: 92.5px;
+    padding-top: 18px;
+}
+.navbar .container-fluid {
+    padding: 0;
+}
+.home-wrapper p {
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(27, 27, 27);
+}
+.home-wrapper ul {
+    margin-left: 10px;
+}
+.home-wrapper a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.container {
+    padding-left: 0;
+    margin-left: 92.5px;
+    margin-right: 92.5px;
+}
+.footer .container {
+    max-width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.wrapper p {
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(27, 27, 27);
+}
+.wrapper p.text {
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(27, 27, 27);
+    margin-bottom: 1px;
+}
+.form-p {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.form-p input {
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.form-p button {
+    font-weight: normal;
+    font-size: 18px;
+    margin-right: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(27, 27, 27);
+    background-color: white;
+    border: 1px gainsboro solid;
+}
+.form-p button.finish-button {
+    color: white;
+    background-color: rgb(84, 114, 197);
+    border: 0;
+}
+.wrapper p.minor-header {
+    font-size: 26px;
+}
+.wrapper ol.quiz-list {
+    margin-left: 15px;
+}
+.wrapper li.quiz-item {
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(27, 27, 27);
+}

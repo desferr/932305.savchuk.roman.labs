@@ -1,0 +1,7 @@
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\932305.savchuk.roman.lab13.exe
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\appsettings.json
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\932305.savchuk.roman.lab13.dll
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\932305.savchuk.roman.lab13.deps.json
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\932305.savchuk.roman.lab13.runtimeconfig.json
+C:\Users\romas\932305.savchuk.roman.labs\932305.savchuk.roman.lab13\bin\Release\net9.0\publish\932305.savchuk.roman.lab13.pdb

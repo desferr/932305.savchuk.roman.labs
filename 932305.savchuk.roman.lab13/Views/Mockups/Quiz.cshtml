@@ -1,0 +1,19 @@
+@model _932305.savchuk.roman.lab13.Models.QuizViewModel
+@{
+    ViewData["Title"] = "Hello Quiz";
+}
+
+<div class="wrapper">
+    <p>Quiz</p>
+    <p class="text">@Model.Expression =</p>
+    <form asp-action="Quiz" asp-controller="Mockups">
+        <input type="hidden" asp-for="Expression" ></input>
+        <p class="form-p">
+            <input type="number" asp-for="UserAnswer" value="" required></input>
+        </p>
+        <p class="form-p button-p">
+            <button type="submit" name="action" value="Next">Next</button>
+            <button class="finish-button" type="submit" name="action" value="Finish">Finish</button>
+        </p>
+    </form>
+</div>

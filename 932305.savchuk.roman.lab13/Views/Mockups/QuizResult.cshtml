@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Hello Quiz";
+    int correctCount = (int)ViewBag.CorrectCount;
+    int historyLength = (int)ViewBag.HistoryLength;
+    List<QuizItem> history = (List<QuizItem>)ViewBag.History;
+}
+
+<div class="wrapper">
+    <p>Quiz results</p>
+    <p class="minor-header">Right answers @correctCount out @historyLength</p>
+    <ol class="quiz-list">
+        @foreach (var item in history) {
+            <li class="quiz-item">@item.Expression = @(item.UserAnswer.ToString() == "" ? "No Answer" : item.UserAnswer)</li>
+        }
+    </ol>
+</div>
